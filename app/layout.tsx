@@ -32,6 +32,9 @@ export default function RootLayout({
               <li>
                 <Link href={"/users"}>Users</Link>
               </li>
+              <li>
+                <Link href={"/users-ssg"}>Users-SSG_ISR</Link>
+              </li>
               <li>About</li>
             </ul>
           </nav>
