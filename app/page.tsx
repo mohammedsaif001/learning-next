@@ -5,9 +5,14 @@ export default function Home() {
     <div className="bg-yellow-600 ">
       Home page
       <br />
-      <Link href={"/about"}>
+      {/* <Link href={"/about"}>
         <button className="text-zinc-300 bg-red-600 py-2 px-4 my-6">
           Go to About Section
+        </button>
+      </Link> */}
+      <Link href={"/users"}>
+        <button className="text-zinc-300 bg-red-600 py-2 px-4 my-6">
+          Go Users
         </button>
       </Link>
     </div>
